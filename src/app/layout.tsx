@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h2 ><span className="flex justify-center py-5 bg-pink-500 font-bold">Chai aur Next.js</span></h2>
         {children}
       </body>
     </html>
